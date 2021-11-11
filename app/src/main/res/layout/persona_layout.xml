@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="100px">
+
+            <TextView
+                android:id="@+id/idProducto"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="ID"/>
+            <EditText
+                android:id="@+id/txtIdProducto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/producto"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="PRODUCTO"/>
+            <EditText
+                android:id="@+id/txtProducto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/marca"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="MARCA"/>
+            <EditText
+                android:id="@+id/txtMarca"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="DESCRIPCION"/>
+            <EditText
+                android:id="@+id/txtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <!--<TextView
+                android:id="@+id/imagen"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="IMAGEN"/>
+            <ImageView
+                android:id="@+id/viewImagen"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="center"
+                android:enabled="false"/>-->
+
+            <TextView
+                android:id="@+id/precioCosto"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="COSTO"/>
+            <EditText
+                android:id="@+id/txtPrecioCosto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/precioVenta"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="PRECIO"/>
+            <EditText
+                android:id="@+id/txtPrecioVenta"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/existencia"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="EXISTENCIA"/>
+            <EditText
+                android:id="@+id/txtExistencia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/fechaIngreso"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:text="INGRESO"/>
+            <EditText
+                android:id="@+id/txtFechaIngreso"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
